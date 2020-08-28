@@ -1,0 +1,1 @@
+<div class="entry-content flx flx-col"><figure> <?php the_post_thumbnail();?> </figure> <?php the_content();?> </div>

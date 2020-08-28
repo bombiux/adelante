@@ -1,0 +1,1 @@
+<form class="search-form" action="/" method="get"><input placeholder="Buscar" type="text" name="search" id="search" value="<?php the_search_query(); ?>"> <button class="search-submit"><span class="dashicons dashicons-search"></span></button></form>

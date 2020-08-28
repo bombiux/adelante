@@ -1,0 +1,2 @@
+<?php
+ $args = array( 'prev_text' => sprintf( '%s Más antiguos', '<span class="meta-nav">&larr;</span>' ), 'next_text' => sprintf( 'Más recientes %s', '<span class="meta-nav">&rarr;</span>' ) ); the_posts_navigation( $args ); ?>

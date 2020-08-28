@@ -1,0 +1,1 @@
+<div class="archive-content flx"><figure> <?php the_post_thumbnail();?> </figure><div><header><h2 class="entry-title"> <?php the_title();?> </h2></header><p> <?php echo wp_trim_words(get_the_content(), 40, '');?> </p><a href="<?php the_permalink();?>" title="<?php the_title_attribute();?>" rel="bookmark">Leer Más</a></div></div>
